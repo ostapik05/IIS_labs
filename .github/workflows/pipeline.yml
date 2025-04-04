@@ -14,7 +14,11 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Install dependencies
-        run: npm install
+        run: npm installn
 
       - name: Build project
         run: npm run build
+
+      - name: Message
+        run: echo "Build was successful at $(date)"
+
