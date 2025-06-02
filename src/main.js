@@ -22,7 +22,17 @@ import "vue-notifyjs/themes/default.css";
 
 Vue.use(PaperDashboard);
 
+Vue.use(PaperDashboard); // <-- Дублювання
+
+Vue.use(PaperDashboard); // <-- Дублювання
+
+
 /* eslint-disable no-new */
+new Vue({
+  router,
+  render: (h) => h(App),
+}).$mount("#app");
+
 new Vue({
   router,
   render: (h) => h(App),
