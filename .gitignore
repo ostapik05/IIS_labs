@@ -5,3 +5,6 @@ package-lock.json
 npm-debug.log
 .idea/
 dist/
+
+.scannerwork/
+sonarqube-9.1.0.47736.zip
